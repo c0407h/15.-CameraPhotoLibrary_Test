@@ -1,24 +1,9 @@
 # 15.-CameraPhotoLibrary_Test
-15.카메라와 포토 라이브러리에서 미디어 가져오기
+15.카메라와 포토 라이브러리에서 미디어 가져오기  
+
+
 카메라 앱 빌드시 오류발생
 -> 시뮬레이터 대신 기기를 연결하여 빌드 과정중 오류가 발생함
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 오류 내용
 2021-02-05 01:15:41.532218+0900 CameraPhotoLibrary[400:9064] [Camera] Failed to read exposureBiasesByMode dictionary: Error Domain=NSCocoaErrorDomain Code=4864 "*** -[NSKeyedUnarchiver _initForReadingFromData:error:throwLegacyExceptions:]: data is NULL" UserInfo={NSDebugDescription=*** -[NSKeyedUnarchiver _initForReadingFromData:error:throwLegacyExceptions:]: data is NULL}  

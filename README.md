@@ -28,4 +28,4 @@
    -> 포토라이브러리 저장키 : Privacy - Photo Library Addions Usage Description
    -> 포토라이브러리 접근키 : Privacy - Photo Library Usage Description
 
-   (!!!대소문자를 구분하여 입력해야 목록이 나온다!!!)
+   **(!!!대소문자를 구분하여 입력해야 목록이 나온다!!!)**

@@ -23,9 +23,9 @@
   2. Key 항목 중 [Main storyboard file base name]에 마우스커서를 올리면 + , - 표시가 나온다 여기서 + 클릭
   3. 추가된 항목에서 Privacy 입력하면 목록이 나오는데 [Privacy - Camera Usage Description] 을 선택
   4. 더 정확하게는 사용하려면 권한 확인에 대한 설명을 키 값인 [Value]에 넣어야 하지만 빈 칸으로 두어도 상관없다.
-  5. 같은 방법으로 포토 라이브러리 접근에 대한 키와 마이크로폰 접근에 대한 키를 추가 할 수있다.
-   -> 마이크로 폰 접근 키 : Privacy - Microphone Usage Description
-   -> 포토라이브러리 저장키 : Privacy - Photo Library Addions Usage Description
-   -> 포토라이브러리 접근키 : Privacy - Photo Library Usage Description
+  5. 같은 방법으로 포토 라이브러리 접근에 대한 키와 마이크로폰 접근에 대한 키를 추가 할 수있다.  
+   -> 마이크로 폰 접근 키 : Privacy - Microphone Usage Description  
+   -> 포토라이브러리 저장키 : Privacy - Photo Library Addions Usage Description  
+   -> 포토라이브러리 접근키 : Privacy - Photo Library Usage Description  
 
    **(!!!대소문자를 구분하여 입력해야 목록이 나온다!!!)**

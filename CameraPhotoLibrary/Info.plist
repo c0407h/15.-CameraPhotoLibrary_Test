@@ -46,13 +46,13 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>Privacy- Photo Library Usage Description</key>
-	<string></string>
+	<string>앨범사용</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string></string>
+	<string>마이크사용</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string></string>
+	<string>추가</string>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
+	<string>카메라사용</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

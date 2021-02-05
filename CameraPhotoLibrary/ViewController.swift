@@ -18,13 +18,16 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     // UIImagePickerController의 인스턴스 변수 생성
     let imagePicker: UIImagePickerController! = UIImagePickerController()
+    
     // 촬영을 하거나 포토 라이브러리에서 불러온 사진(Image)을 저장할 변수
     var captureImage: UIImage!
+    
     // 녹화한 비디오의 URL을 저장할 변수
     var videoURL: URL!
+    
     // 이미지 저장 여부를 나타낼 변수
     var flagImageSave = false
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -118,7 +121,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     // 델리게이트 메서드 구현
     // 사용자가 사진이나 비디오 촬영하거나 포토 라이브러리에서 선택이 끝났을 때
     // 호출되는 didFinishPickingMediaWithInfo메서드 구현
-    func didFinishPickingMediaWithInfo(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         // 미디어 종류를 확인한다.
         let mediaType = info[UIImagePickerController.InfoKey.mediaType]
                         as! NSString
@@ -134,7 +137,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             if flagImageSave {
                 UIImageWriteToSavedPhotosAlbum(captureImage, self, nil, nil)
             }
-            
+            // 가져온 사진을 이미지 뷰에 출력
        imgView.image = captureImage
         }
         // 미디어 종류가 Movie 비디오일 경우
